@@ -1,8 +1,30 @@
 aid: aqrose-technology
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aqrose-technology.png
 name: Aqrose Technology
-description: 'Aqrose Technology is a company surfaced as a portfolio company of dcm-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Aqrose Technology (阿丘科技) is an industrial AI machine-vision platform
+  provider founded in Beijing in 2017 out of the Tsinghua University AI Lab, now dual-headquartered
+  in Beijing and Singapore with offices in Suzhou, Shenzhen, Hsinchu, Berlin, Tokyo,
+  and Seoul. The company builds AI tools, models, and turnkey systems for manufacturing
+  quality control, safety inspection, and process optimization, with 20,000+ AI deployments
+  across 1,200+ clients in 50+ industrial sectors. Its product line spans the AIDI
+  defect-inspection platform, the AQVision low-code AI vision development toolkit,
+  the AIDG toolkit, the SV2000 smart vision hardware, an AI Review System (ARS), a
+  robot inspection system, and the AQ-VLM industrial vision-language model, serving
+  EV batteries, automotive, semiconductors, pharmaceuticals, electronics, photovoltaics,
+  food and beverage, and packaging. Surfaced as a portfolio company of dcm-ventures
+  and profiled in the API Evangelist network; no public developer API surface was
+  found at the time of enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/aqrose-technology/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Frontier Tech
+- Artificial Intelligence
+- Machine Vision
+- Computer Vision
+- Industrial Automation
+- Manufacturing
+- Quality Inspection
+- Defect Detection
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +53,15 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.aqrose.com/
+  url: https://www.aqrose.com/
+- type: About
+  url: https://www.aqrose.com/About-Us.html
+- type: Support
+  url: https://www.aqrose.com/contactus.html
+- type: DomainSecurity
+  url: security/aqrose-technology-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
