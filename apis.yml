@@ -51,7 +51,7 @@ tags:
 - Frontier Tech
 - Artificial Intelligence
 - Machine Vision
-- Computer-Vision
+- Computer Vision
 - Industrial Automation
 - Manufacturing
 - Quality Inspection
@@ -66,6 +66,7 @@ tags_raw:
 - Manufacturing
 - Quality Inspection
 - Defect Detection
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
